@@ -7,7 +7,6 @@ function App() {
   const getHost = () => {
     const protocol = window.location.protocol;
     const host = window.location.host;
-
     return `${protocol}//${host}`;
   };
 
